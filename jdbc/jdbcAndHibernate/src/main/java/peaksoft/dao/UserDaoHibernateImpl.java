@@ -15,6 +15,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     }
 
+
     @Override
     public void dropUsersTable() {
 
@@ -39,4 +40,5 @@ public class UserDaoHibernateImpl implements UserDao {
     public void cleanUsersTable() {
 
     }
+
 }
